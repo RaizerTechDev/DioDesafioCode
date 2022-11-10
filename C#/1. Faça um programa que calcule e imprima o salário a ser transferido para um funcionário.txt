@@ -33,6 +33,8 @@ public class Desafio
 		    //Atribiu a aliquota de 5% mediante o salário:
 			valorImposto = 0.05F * valorSalario;
 		}
+		
+		//TODO Criar as demais condições para as aliquotas de 10.00% e 15.00%.
 		if (valorSalario > 1100 && valorSalario <= 2500)
 		{
 		    //Atribiu a aliquota de 5% mediante o salário:
@@ -43,8 +45,7 @@ public class Desafio
 		    //Atribiu a aliquota de 5% mediante o salário:
 			valorImposto = 0.15F * valorSalario;
 		}
-		//TODO Criar as demais condições para as aliquotas de 10.00% e 15.00%.
-		
+				
 		//Calcula e imprime a Saída (com 2 casas decimais):
 		float saida = (valorSalario - valorImposto) + valorBeneficios;
 		Console.WriteLine(saida.ToString("0.00"));
