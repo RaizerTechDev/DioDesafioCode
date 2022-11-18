@@ -1,0 +1,19 @@
+3.Compras no Supermercado
+
+ // IMPORTANTE: As funções "gets" e "print" são acessíveis globalmente e têm as seguintes funcionalidades: 
+// - "gets()" : lê UMA linha com dados de entrada (inputs) do usuário;
+// - "print()": imprime um texto de saída (output) e pula uma linha ("\n") automaticamente;
+// - "split()": divide uma String em um Array de Strings;
+
+// Abaixo segue um exemplo de código que você pode ou não utilizar:
+
+const nCasos = parseInt(gets());
+let saida = [];
+
+for (let i = 0; i < nCasos; i++) {
+  let comprasUnicas = new Set(gets().split(' ').sort())
+  
+  saida[i] = Array.from(comprasUnicas).join(' ')
+}
+
+saida.map((lista) => console.log(lista))

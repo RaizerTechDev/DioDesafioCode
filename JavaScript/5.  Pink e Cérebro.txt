@@ -1,0 +1,22 @@
+5.  Pink e Cérebro
+
+// IMPORTANTE: As funções "gets" e "print" são acessíveis globalmente, onde: 
+// - "gets" : lê UMA linha com dado(s) de entrada (inputs) do usuário;
+// - "print": imprime um texto de saída (output) e pula uma linha ("\n") automaticamente.
+
+// TODO: Retorne a quantidade de números múltiplos de 2, 3, 4 e 5 presentes na lista
+
+let n = gets();
+let lis = gets().split(' ');
+let increment = 0;
+
+for (let mlt = 0; mlt <= 3; mlt++) {
+    lis.forEach(li => {
+        if (li % (mlt + 2) == 0) {
+            increment++;
+        }
+    })
+    
+    console.log(`${increment} Multiplo(s) de ${mlt + 2}`)
+    increment = 0;
+}
