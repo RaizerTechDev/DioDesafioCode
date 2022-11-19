@@ -1,10 +1,8 @@
 ## Olá  <img src="https://media.giphy.com/media/l1J9sBOqBIvnafnUc/giphy.gif" align="center" width="85">
 
-***
 
 ## 📚 Desafio DIO <img src="https://media.giphy.com/media/dMLmQfCO7lCA2gX3tw/giphy.gif" align="center" width="135">
-
-***
+<br />
 
  ### <img src="https://media.giphy.com/media/JO9WCVmDMbC0eLSlyV/giphy.gif" align="center" height="60" width="60"> &nbsp;Linguagens Tecnológicas que foram realizados os Desafios👇
  
