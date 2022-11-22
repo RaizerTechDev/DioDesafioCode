@@ -5,11 +5,13 @@
 // - "print": imprime um texto de saída (output) e pula uma linha ("\n") automaticamente.
 // TODO: Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casas após o ponto decimal.
 
+---------------------------
 Entradas	    Saída
 x1 = 1.0            4.4721
 x2 = 5.0
 y1 = 7.0
 y2 = 9.0  
+-----------------------------
 
 /*
 let p1 = gets().split(" ");
