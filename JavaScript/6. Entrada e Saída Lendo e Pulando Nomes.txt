@@ -9,6 +9,7 @@
 // TODO:  Crie um código que retorne o terceiro, sétimo e nono nome da lista
 //// No vetor a posição começa do zero;
 
+------------------------------------
 Entradas                    Saída
 USP                           UFCG, ITA, URI
 UFPE                         
@@ -20,7 +21,7 @@ ITA
 UNIOESTE                   
 URI                     
 UFCG
-
+-----------------------------------
 let nomes = new Array(10)
 		
 for(let i=0 ; i<10; i++)
