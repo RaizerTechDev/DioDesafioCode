@@ -4,7 +4,22 @@
 // - "gets" : lê UMA linha com dado(s) de entrada (inputs) do usuário;
 // - "print": imprime um texto de saída (output) e pula uma linha ("\n") automaticamente.
 
+
+//Faça um programa com as características abaixo:
 // TODO:  Crie um código que retorne o terceiro, sétimo e nono nome da lista
+//// No vetor a posição começa do zero;
+
+Entradas                    Saída
+USP                           UFCG, ITA, URI
+UFPE                         
+UFCG                       
+UFRN             
+UFRJ                    
+IME                     
+ITA                     
+UNIOESTE                   
+URI                     
+UFCG
 
 let nomes = new Array(10)
 		
